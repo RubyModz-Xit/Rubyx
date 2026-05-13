@@ -1,7 +1,7 @@
 --RubyModz--
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local WelcomeWindow = Rayfield:CreateWindow({
-   Name = "Cargando Panel..",
+   Name = "Cargando Panel...",
    LoadingTitle = "Juego Bite by Night",
    LoadingSubtitle = "Created By Ruby Modz",
    ConfigurationSaving = { Enabled = false },
@@ -14,7 +14,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Ruby Modz | Free Panel Bite By Night",
    LoadingTitle = "El Mejor Panel Gratis",
-   LoadingSubtitle = "Configurando Interfaz...",
+   LoadingSubtitle = "Configurando...",
    ConfigurationSaving = { Enabled = false },
    KeySystem = false,
    Theme = "AmberGlow"
