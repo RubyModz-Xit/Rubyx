@@ -1,20 +1,27 @@
 --RubyModz--
+--RubyModz--
+--RubyModz--
+--RubyModz--
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local WelcomeWindow = Rayfield:CreateWindow({
-   Name = "Cargando Panel...",
+   Name = "Cargando Panel..",
    LoadingTitle = "Juego Bite by Night",
-   LoadingSubtitle = "Created By Ruby Modz",
+   LoadingSubtitle = "Created By TEAM RGB",
    ConfigurationSaving = { Enabled = false },
    KeySystem = false,
    Theme = "AmberGlow"
 })
+--RubyModz--
+--RubyModz--
+--RubyModz--
+--RubyModz--
 Rayfield:Destroy() 
 --Rata? O por que vez mi script
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Ruby Modz | Free Panel Bite By Night",
    LoadingTitle = "El Mejor Panel Gratis",
-   LoadingSubtitle = "Configurando...",
+   LoadingSubtitle = "Configurando Interfaz...",
    ConfigurationSaving = { Enabled = false },
    KeySystem = false,
    Theme = "AmberGlow"
@@ -575,7 +582,7 @@ local function crearBotonReparar()
     btn.Size = UDim2.new(0, 80, 0, 80)
     btn.Position = UDim2.new(0.75, 0, 0.4, 0)
     btn.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
-    btn.Text = "REPARAR"
+    btn.Text = "BAJAR"
     btn.TextColor3 = Color3.new(1, 1, 1)
     btn.Font = Enum.Font.GothamBold
     btn.TextSize = 12
@@ -1149,7 +1156,7 @@ Tab:CreateToggle({
          end)
          Rayfield:Notify({Title = "Noclip Activo", Content = "Atraviesa las puertas ahora", Duration = 2})
       else
-         -- Detener el noclip
+
          if noclipConnection then
             noclipConnection:Disconnect()
             noclipConnection = nil
