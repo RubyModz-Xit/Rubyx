@@ -470,7 +470,6 @@ local Lighting = game:GetService("Lighting")
 Tab:CreateToggle({
    Name = "FullBright Extremo (Anti-Off)",
    CurrentValue = false,
-   alertSound:Play()
    Flag = "FullBrightHardcore",
    Callback = function(Value)
    alertSound:Play()
